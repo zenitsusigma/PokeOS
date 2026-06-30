@@ -14,13 +14,14 @@
         color: #ffffff;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         overflow: hidden;
-        line-height: 1.6;
+        margin: 0;
+        padding: 0;
     }
     h1 {
-        color: #b81616;
+        color: #f0b616;
     }
     h2 {
-        color: #f0b616
+        color: #4d8b07
     }
     p {max-width: 700px;}
     a{
@@ -29,19 +30,30 @@
     }
     img{
         display: block;
-        margin: 25px;
+        margin: 25px auto;
         border-radius: 16px;
     }
   </style>
   
   <body>
-    <div style="display: flex; justify-content: space-between;">
-        <p>PokéOS</p>
-        <p>8:47PM 29/6/2026</p>
+    <div style="position: absolute; top: 0; left: 0;width: 100%; 
+    display: flex; justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(16px); 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #ffffff; padding: 16px 32px;
+    z-index: 100; gap: 16px; box-sizing: border-box;">
+        <p style="margin: 0; padding: 8px 16px; border-radius: 32px; background-color: rgba(255, 187, 0, 0.3);;">
+            PokéOS
+        </p>
+        <p style="margin: 0; padding: 8px 16px; border-radius: 32px; background-color: rgba(255, 187, 0, 0.3);">
+            Gotta Catch 'Em All
+        </p>
+        <p style="margin: 0; padding: 8px 16px; border-radius: 32px; background-color: rgba(255, 187, 0, 0.3);">
+            8:47PM 29/6/2026
+        </p>
     </div>
     <div style="position: absolute; 
-    border: solid; 
-    border-color: #ffffff; 
     padding: 8px; 
     border-radius: 32px; 
     top: 50%; left: 50%;
